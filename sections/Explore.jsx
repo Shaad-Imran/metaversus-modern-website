@@ -10,10 +10,7 @@ const Explore = () => {
   const [active, setActive] = useState("world-2");
 
   return (
-    <section
-      className={`${styles.paddings} border-2 border-red-500`}
-      id="explore"
-    >
+    <section className={`${styles.paddings}`} id="explore">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
